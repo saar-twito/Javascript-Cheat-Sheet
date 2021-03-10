@@ -1,0 +1,27 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "chalk": "^4.1.0",
+    "joi": "^17.3.0",
+    "lodash": "^4.17.20",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saar-twito/JS-data.git"
+  },
+  "author": "Saar Twito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saar-twito/JS-data/issues"
+  },
+  "homepage": "https://github.com/saar-twito/JS-data#readme"
+}
