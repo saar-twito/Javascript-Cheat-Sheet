@@ -35,3 +35,8 @@ var numbers = [1, 2, 3, 4, 5]
 console.log(numbers.slice()) // copy
 console.log(numbers.slice(2)) // [ 3, 4, 5 ]   
 console.log(numbers.slice(0, 2)) // [ 1, 2 ]
+
+
+// The repeat() method returns a new string with a specified number of copies of the string it was called on.
+const str = "Hello world!";
+console.log(str.repeat(2))

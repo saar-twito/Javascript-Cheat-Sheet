@@ -1,1 +1,6 @@
-// This file is for testing features in JS languish
+function capitalizeFirstLetter(string) {
+  return 
+}
+
+
+console.log(capitalizeFirstLetter("italy"))
