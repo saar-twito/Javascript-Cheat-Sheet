@@ -17,7 +17,6 @@ const add = (x, y) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => reject(x, y), 2000)
     })
-
 }
 
 async function getAddition(x, y) {
@@ -27,5 +26,6 @@ async function getAddition(x, y) {
         console.log('Cant divide by zero');
     }
 }
+
 getAddition(5, 0);
 

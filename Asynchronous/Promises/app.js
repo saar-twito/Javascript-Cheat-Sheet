@@ -14,7 +14,8 @@ const add = (a, b) => {
     return new Promise((resolve, reject) => {
         setTimeout(() => reject(a / b), 2000)
     })
-
 }
-add(1, 0).then((sum) => console.log(sum))
+
+add(1, 0)
+    .then((sum) => console.log(sum))
     .catch(() => console.log('Cant divide by zero'));
