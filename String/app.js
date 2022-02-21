@@ -1,5 +1,4 @@
 // Split - used to split a string.array and returns the new array. 
-// Note: The split() method does not change the original string.
 // string.split(separator, limit) 
 const sentence1 = "How are you";
 console.log(`1 ${sentence1.split()}`); // copy - How are you
