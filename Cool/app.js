@@ -18,7 +18,7 @@ const object = {
 console.log(object?.emergencyPerson?.phone ?? "No Emergency Phone!");
 
 
-// COOL SYNTAX TO UPDATE AN OBJECT
+// Create new object / update an object
 let person = {
     name: 'John',
     lastName: 'Dou',
