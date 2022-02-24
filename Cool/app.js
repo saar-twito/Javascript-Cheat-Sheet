@@ -15,14 +15,17 @@ let person = {
 person = { ...person, name: 'Saar' } // { name: 'Saar', lastName: 'Dou', age: 36 }
 
 
-
-// DELETING A PROPERTY FROM AN OBJECT
+// Nullish coalescing operator (??) and Optional chaining (?.)
 const object = {
     name: "Saar",
     age: "23",
+    emergencyPerson : {
+        name: "John",
+        phone: undefined
+    }
 }
-delete object.age
-console.log(object); // Saar
+
+console.log(object?.emergencyPerson?.phone ?? "No Emergency Phone!");
 
 
 
