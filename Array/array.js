@@ -11,7 +11,6 @@ for (let value of fruits)
 
 
 
-
 // A Set is a collection of items which are unique,
 // means, element cant be repeated.
 let duplicatesArray = [1, 1, 2, 3, 3, 5, 5, 6, 5];
@@ -85,4 +84,14 @@ console.log(a); // true
 let ages = [3, 9, 21, 15]
 let a = ages.every((n => n > 2));
 console.log(a); // true
+
+
+// Note: splice only working on array.
+// Note: This method changes the original array.
+// array.splice(index, howManyToRemove, item1, ....., itemX)
+// Index - An integer that specifies at what position to add/remove/get items {R}
+const sign = ["A", "B", "C", "D"];
+sign.splice(2, 0, "1", "2"); // [ 'A', 'B', '1', '2', 'C', 'D' ]
+sign.splice(2, 2) // [ 'A', 'B' ]
+sign.splice(2); // [ 'A', 'B' ]
 
