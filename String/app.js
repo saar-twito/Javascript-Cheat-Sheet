@@ -5,6 +5,7 @@ console.log(`${sentence1.split(" ")}`); // [How, are, you]
 console.log(`${sentence1.split("o")}`); // [H,w, are, y,u]
 
 
+
 // Substring - extracting the characters from a string by index and return the those characters as a string.
 // string.substring(start, end)
 const sentence2 = "Hello world!";
