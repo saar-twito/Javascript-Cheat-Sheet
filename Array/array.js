@@ -79,7 +79,6 @@ console.log(a); // true
 
 // Every()
 // Checks if all the item in an array pass a test.
-// If it finds an item that not pass the condition
 // If items pass the test returns true, else return false, and do not check the remaining items.
 let ages = [3, 9, 21, 15]
 let a = ages.every((n => n > 2));
