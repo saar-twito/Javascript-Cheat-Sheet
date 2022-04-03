@@ -85,6 +85,14 @@ let a = ages.every((n => n > 2));
 console.log(a); // true
 
 
+const numbers = [2, 45, 43, 2, 7, 45, 7, 34, 6]
+// 1) < 0 ... a comes first
+// 2) 0 ... nothing will change
+// 3) > 0 ... b comes first
+numbers.sort((a, b) => a - b) // For ascending sort
+numbers.sort((a, b) => b - a); // For descending sort
+
+
 // Note: splice only working on array.
 // Note: This method changes the original array.
 // array.splice(index, howManyToRemove, item1, ....., itemX)
