@@ -2,12 +2,10 @@
 let fruits = ["Apple", "Orange"];
 
 // ForIn
-for (let key in fruits)
-    console.log(key); // 0 1
+for (let key in fruits) console.log(key); // 0 1
 
 // ForOf
-for (let value of fruits)
-    console.log(value) // "Apple", "Orange"
+for (let value of fruits) console.log(value) // "Apple", "Orange"
 
 
 
@@ -23,7 +21,6 @@ let params = [65, 44, 12, 4];
 // Reduce()
 // accumulator - The pile of our result, also the first item in the array if we didn't define a default value like 0
 // currentItem - the current item {65} then {44}...
-
 let a = params.reduce((total, next) => total + next, 0);
 console.log(a); // 21
 
@@ -43,15 +40,16 @@ myNumbers.forEach((item, index) => myNumbers[index] = item * 10);
 // Map is basically the same thing like forEach BUT
 // Map returning a new array.
 let myNumbers = [65, 44, 12, 4];
-
 let a = myNumbers.map((item) => item * 4)
 console.log(a); // [260, 176, 48, 16]
+
 
 
 // Filter()
 // The filter() method creates a new array with all elements that pass the test 
 let greaterTen = numbers.filter(number => number > 10);
 console.log(greaterTen); // [23, 12, 45, 78, 11, 10.1, 84]
+
 
 
 // Find()
@@ -85,12 +83,16 @@ let a = ages.every((n => n > 2));
 console.log(a); // true
 
 
+
+// Sort will convert them to string and compare them by utf base code
+// so if I want to compare them to small-large or length for string etc., we will have to insert a compare function.
 const numbers = [2, 45, 43, 2, 7, 45, 7, 34, 6]
 // 1) < 0 ... a comes first
 // 2) 0 ... nothing will change
 // 3) > 0 ... b comes first
 numbers.sort((a, b) => a - b) // For ascending sort
 numbers.sort((a, b) => b - a); // For descending sort
+
 
 
 // Note: splice only working on array.
