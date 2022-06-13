@@ -1,0 +1,11 @@
+
+FormData - 
+The FormData interface provides a way to easily construct
+a set of key/value pairs representing form fields and their values,
+which can then be easily sent using the fetch().
+
+FileReader -
+The FileReader object lets web applications asynchronously
+read the contents of files (or raw data buffers)
+stored on the user's computer, using File or Blob objects
+to specify the file or data to read.
