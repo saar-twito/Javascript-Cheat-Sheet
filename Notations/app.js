@@ -9,18 +9,6 @@ let person = {
     age: 23
 }
 
-// good
-const update = (key,valeu) => {
-   person[key] = valeu;
-   console.log(person) // { name: 'Saar', age: 25 }
-}
-
-// bed
-const update = (key,valeu) => {
-   person.key = valeu;
-   console.log(person) // { name: 'Saar', age: 25, key: 25 }
-}
-
 // Acsses
 console.log(person.age); // 23
 console.log(person['age']); // 23
@@ -29,5 +17,16 @@ console.log(person['age']); // 23
 person.profession = 'Programer'
 person['location'] = 'Israel'
 
+// good
+const update1 = (key,valeu) => {
+   person[key] = valeu;
+   console.log(person) // { name: 'Saar', age: 25 }
+}
 
-update('age',25);
+// bed
+const update2 = (key,valeu) => {
+   person.key = valeu;
+   console.log(person) // { name: 'Saar', age: 25, key: 25 }
+}
+
+update1('age',25);
