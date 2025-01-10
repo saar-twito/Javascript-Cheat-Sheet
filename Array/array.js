@@ -7,7 +7,7 @@ for (let key in fruits) console.log(key); // 0 1
 // ForOf
 for (let value of fruits) console.log(value) // "Apple", "Orange"
 
-// code code code
+// this is another message for you (test)
 
 // A Set is a collection of items which are unique,
 // means, element cant be repeated.
